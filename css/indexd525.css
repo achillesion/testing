@@ -1821,7 +1821,7 @@ a {
     color: #145388; }
 
 .white {
-  color: #d0d0d0 !important; }
+  color: #000000 !important; }
 
 p {
   font-size: 0.85rem;
@@ -5632,7 +5632,7 @@ a.ck.ck-button.ck-on:not(.ck-disabled):hover {
 .landing-page {
   font-size: 1rem;
   line-height: 1.6rem;
-  color: #757575; }
+  color: #fd7e14; }
   @media (max-width: 767px) {
     .landing-page {
       font-size: 0.9rem;
@@ -6509,7 +6509,7 @@ p.detail-text {
 }
 
 .landing-page p {
-  color: #969696;
+  color: #fff;
 }
 
 p {
