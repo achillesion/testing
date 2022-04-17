@@ -68,6 +68,9 @@
         .number-wrap:first-child {
             margin-left: 0;
         }
+        .text-yellow{
+            color: #f7941d;
+        }
 
         .luck-title {
             /*font-family: 'Lobster', cursive;*/
@@ -130,7 +133,7 @@
         }
 
         #topStatsContainer i {
-            background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#145388));
+            background: -webkit-gradient(linear, left top, left bottom, from(#fef5fe), to(#f7941d));
             -webkit-background-clip: text;
             background-clip: text;
         }
@@ -169,18 +172,18 @@
 </head>
 
 <body class="show-spinner">
-<div class="landing-page">
-    <div class="mobile-menu">
+<div class="landing-page" >
+    <div class="mobile-menu" style="background-color: #570548!important;">
 
         <ul id="site-menu" class="navbar-nav">
         </ul>
     </div>
 
     <div class="main-container">
-        <nav class="landing-page-nav">
+        <nav class="landing-page-nav" style="background: rgba(0, 0, 0, 0.2); backdrop-filter: blur(4px);">
             <div class="container d-flex align-items-center justify-content-between">
                 <a class="pull-left" href="index.html">
-                    <image width="64px" class="mr-2" src="Space-logo-Orange.svg"/><span class="text-white">SPACE BANK</span>
+                    <image width="64px" class="mr-2" src="Space-logo-Orange.svg"/><span class="" style="font-family: 'Lobster', cursive; font-size: 25px; color: #f7941d;">Earn 2% Daily With Space Bank</span>
                 </a>
 
                 <a href="#" class="d-lg-flex mobile-menu-button">
@@ -406,8 +409,8 @@
                                 <div class="col-12 text-center">
                                     <div class="mb-4 text-center notranslate p-1"><img width="120px" src="Space-logo-Orange.svg"/></div>
                                     <!--<h3 id="lde-expires" class="text-white-50 mb-4"></h3>-->
-                                    <h3 class="text-white-50 mb-4">Welcome to SPACE BANK</h3>
-                                    <a  onclick="connectWallet();" id="wallet-connect" class="btn btn-outline-primary text-white">CONNECT WALLET</a>
+                                    <h3 class=" mb-4" style="font-family: 'Lobster'; font-size:50px; color: #f7941d;" >Welcome to SPACE BANK</h3>
+                                    <a  onclick="connectWallet();" id="wallet-connect" class="btn btn-primary" style="color: #f7941d; border-color: #f7941d;"> CONNECT WALLET</a>
                                 </div>
                             </div>
                             <h3 class="text-center text-white-50"><span class="notranslate" id="user-estimate"></span>
@@ -427,8 +430,8 @@
 
                                 <div class="container col-6 col-xl-4 col-lg-4 col-md-4  text-center">
                                     <div class="price-top-part">
-                                        <i class="iconsmind-Elephant  large-icon"></i>
-                                        <h5 class="mb-0 font-weight-semibold text-white-50 mb-2">Balance</h5>
+                                        <i class="iconsmind-Elephant large-icon"  style="color:#f7941d;"></i>
+                                        <h5 class="mb-0 font-weight-semibold  mb-2" style="color:#f7941d;">Balance</h5>
                                         <p class="text-large mb-2 text-white"><span class="notranslate" id="user-balance">...</span></p>
                                         <p class="text-muted text-small"> SPACE BANK <span class="notranslate" id="user-balance-usdt"></span></p>
                                     </div>
@@ -451,7 +454,7 @@
                             </div>
                         </div>
                         <div class="container col-12 col-xl-6 col-lg-6 col-md-6 mb-4 pt-4">
-                            <h2 class="text-white-50 mb-2">Buy</h2>
+                            <h2 class=" mb-2" style="color: #f7941d; font-family: 'Lobster'; font-size: 64px;">Buy</h2>
                             <div class="card mb-4">
                             <div class="card-body" style="background: #090424cc; padding: 30px; border-style: solid; border-width: 1px; border-radius: 14px; border-color:#f7941d; box-shadow: rgb(247 149 29) 0px 1px 15px, rgb(247 149 29) 0px 1px 8px;">
                                         <form>
@@ -480,7 +483,7 @@
                             </div>
                             </div>
 
-                            <h2 class="text-white-50 mb-2">SELL</h2>
+                            <h2 class=" mb-2" style="color: #f7941d; font-family: 'Lobster'; font-size: 64px;" >SELL</h2>
                             <div class="card">
                             <div class="card-body" style="background: #090424cc; padding: 30px; border-style: solid; border-width: 1px; border-radius: 14px; border-color:#f7941d; box-shadow: rgb(247 149 29) 0px 1px 15px, rgb(247 149 29) 0px 1px 8px;">
                                             
