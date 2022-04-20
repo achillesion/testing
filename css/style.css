@@ -1540,7 +1540,7 @@ body {
   font-size: 0.8rem;
   font-weight: 400;
   color: #969696;
-  background: #1b191b; }
+  background: #090424;}
   body.background {
     height: 100%; }
     body.background main {
@@ -5872,7 +5872,7 @@ a.ck.ck-button.ck-on:not(.ck-disabled):hover {
       background: url("../BG3.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-      background-repeat: repeat-y;
+      /* background-repeat: repeat-y; */
       background-position-y: 0;
       background-position-x: 0!important;
       background-color: transparent;
@@ -5916,9 +5916,9 @@ a.ck.ck-button.ck-on:not(.ck-disabled):hover {
           background-position-y: -310px;
           height: 760px; } }
     .landing-page .section.footer {
-      background: url("../BG3.jpg");
+      /* background: url("../BG3.jpg"); */
       background-size: cover;
-      background-color: #232223;
+      background-color: #090424;
       background-repeat: no-repeat;
       padding-bottom: 0; }
   .landing-page .section.background {
