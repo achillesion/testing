@@ -1545,7 +1545,7 @@ body {
   font-size: 0.8rem;
   font-weight: 400;
   color: #969696;
-  background: #1b191b; }
+  background: #090424; }
   body.background {
     height: 100%; }
     body.background main {
@@ -1817,7 +1817,7 @@ a {
   transition: color 200ms; }
   a:hover, a:active {
     text-decoration: initial;
-    color: #145388; }
+    color: #f7941d; }
 
 .white {
   color: #d0d0d0 !important; }
@@ -1865,7 +1865,7 @@ p {
   font-weight: 600; }
 
 .color-theme-1 {
-  color: #145388; }
+  color: #f7941d; }
 
 .color-theme-2 {
   color: #3582b3; }
@@ -2628,7 +2628,7 @@ button {
 
 .owl-dot.active,
 .slick-dots li.slick-active button {
-  background: #145388; }
+  background: #f7941d; }
 
 .best-rated-items .owl-stage img {
   max-width: 230px; }
@@ -5643,7 +5643,7 @@ a.ck.ck-button.ck-on:not(.ck-disabled):hover {
     transform: translateX(300px);
     z-index: 25;
     width: 300px;
-    background: #1b191b;
+    background: #090424;
     box-shadow: initial; }
     .landing-page .mobile-menu.default-transition {
       transition: transform 0.5s, box-shadow 0.5s; }
@@ -5858,10 +5858,12 @@ a.ck.ck-button.ck-on:not(.ck-disabled):hover {
         margin-bottom: 100px;
         padding-top: 60px; } }
     .landing-page .section.home {
-      background: url("../img/landing-page/home-background-blue-dark.png");
+      background: url("../BG3.jpg");
       background-repeat: no-repeat;
-      background-position-y: 0;
+      background-size: contain;
       background-color: transparent;
+      background-position-y: 0;
+      background-position-x: 0!important;
       height: 1440px;
       margin-bottom: 0;
       padding-top: 0;
@@ -5902,8 +5904,8 @@ a.ck.ck-button.ck-on:not(.ck-disabled):hover {
           background-position-y: -310px;
           height: 760px; } }
     .landing-page .section.footer {
-      background: url("../img/landing-page/footer-background-blue-dark.png");
-      background-color: #232223;
+      /* background: url("../img/landing-page/footer-background-blue-dark.png"); */
+      /* background-color: #232223;w */
       background-repeat: no-repeat;
       padding-bottom: 0; }
   .landing-page .section.background {
@@ -6001,7 +6003,7 @@ a.ck.ck-button.ck-on:not(.ck-disabled):hover {
   .landing-page i.large-icon {
     font-size: 60px;
     line-height: 110px;
-    background: -webkit-gradient(linear, left top, left bottom, from(#3582b3), to(#145388));
+    background: -webkit-gradient(linear, left top, left bottom, from(#fef5fe), to(#f7941d));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

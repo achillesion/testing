@@ -2616,7 +2616,7 @@ button {
 .slider-nav .left-arrow,
 .slider-nav .right-arrow {
   font-size: 20px;
-  color: #145388;
+  color: #f7941d;
   display: inline-block;
   vertical-align: middle;
   margin: 0 15px;
@@ -2638,7 +2638,7 @@ button {
 
 .owl-dot.active,
 .slick-dots li.slick-active button {
-  background: #145388; }
+  background: #f7941d; }
 
 .best-rated-items .owl-stage img {
   max-width: 230px; }
