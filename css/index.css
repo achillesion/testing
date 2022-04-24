@@ -5858,7 +5858,7 @@ a.ck.ck-button.ck-on:not(.ck-disabled):hover {
         margin-bottom: 100px;
         padding-top: 60px; } }
     .landing-page .section.home {
-      background: url("../BG3.jpg");
+      /* background: url("../BG3.jpg"); */
       background-size: contain;
       background-repeat: no-repeat;
       background-position-y: 0;
