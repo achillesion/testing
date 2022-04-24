@@ -5870,7 +5870,7 @@ a.ck.ck-button.ck-on:not(.ck-disabled):hover {
       position: relative; }
       @media (max-width: 575px) {
         .landing-page .section.home {
-          background-position-y: -100px;
+          /* background-position-y: -100px; */
           height: 1340px; } }
     .landing-page .section.subpage {
       background: url("../img/landing-page/sub-background-blue-dark.png");
